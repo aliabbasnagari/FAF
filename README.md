@@ -41,8 +41,8 @@ Nothing required except for a Chrome browser on your PC. (Work in progress for F
     ```bash
     # Clone the repository
     git clone https://github.com/aliabbasnagari/FAF.git
+    # Skip Step 2
     ```
-    Skip step 2.
 
 2. Extract the ZIP File:
 
