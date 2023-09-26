@@ -66,10 +66,10 @@ Nothing required except for a Chrome browser on your PC. (Work in progress for F
     Follow any on-screen instructions or documentation provided by the extension's developer to start using it.
 
 ```bash
-# Example installation steps
+# Example installation steps (git required)
 git clone https://github.com/aliabbasnagari/FAF.git
 cd FAF
+# Follow instructions from step 3 onward [Installation](#installation).
 ```
-Follow instructions from step 3 onward [Installation](#installation).
 
 ## open to contributions and feedback
