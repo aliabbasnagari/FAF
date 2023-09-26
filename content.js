@@ -24,9 +24,8 @@ function addBtn() {
         bfbutton.classList.add('btn');
         bfbutton.classList.add('btn-success');
         bfbutton.classList.add('m-2');
-        bfbutton.addEventListener("click", function () {
-            BestFeedback();
-        });
+        bfbutton.addEventListener("click", () => AutoFeedback(2));
+
 
         var afbutton = document.createElement('button');
         afbutton.type = 'button';
@@ -34,9 +33,7 @@ function addBtn() {
         afbutton.classList.add('btn');
         afbutton.classList.add('btn-info');
         afbutton.classList.add('m-2');
-        afbutton.addEventListener("click", function () {
-            AverageFeedback();
-        });
+        bfbutton.addEventListener("click", () => AutoFeedback(1));
 
         var wfbutton = document.createElement('button');
         wfbutton.type = 'button';
@@ -44,9 +41,7 @@ function addBtn() {
         wfbutton.classList.add('btn');
         wfbutton.classList.add('btn-danger');
         wfbutton.classList.add('m-2');
-        wfbutton.addEventListener("click", function () {
-            WorstFeedback();
-        });
+        bfbutton.addEventListener("click", () => AutoFeedback(0));
 
         divs[0].appendChild(bfbutton);
         divs[0].appendChild(afbutton);
@@ -59,6 +54,27 @@ function addBtn() {
 }
 
 
+function AutoFeedback(level) {
+    var autoSubmit = document.getElementById('autoSubmit');
+    var radioButtons = document.querySelectorAll('.rdo');
+    var textareas = document.querySelectorAll('textarea');
+
+    var offset = (level == 0) ? 4 : 0;
+    for (var i = 0; i < radioButtons.length; i += 5) {
+        if (level == 1) offset = Math.floor(Math.random() * 3);
+        radioButtons[i + offset].checked = true;
+    }
+
+    var fb_message = "Excellent!";
+    if (level == 0) fb_message = "Not Good!";
+    else if (level == 1) fb_message = "Fine!";
+    for (var i = 0; i < textareas.length; i++) {
+        textareas[i].value = fb_message;
+    }
+
+    if (autoSubmit.checked) document.getElementById('submit').click();
+}
+/*
 function BestFeedback() {
     var autoSubmit = document.getElementById('autoSubmit');
     var radioButtons = document.querySelectorAll('.rdo'); // Get all radio buttons with class "rdo"
@@ -102,7 +118,7 @@ function AverageFeedback() {
     }
     if (autoSubmit.checked) document.getElementById('submit').click();
 }
-
+*/
 
 setTimeout(addBtn, 2000);
 
