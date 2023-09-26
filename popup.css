@@ -1,0 +1,49 @@
+/* Basic styling for the button */
+.custom_button {
+    margin-bottom: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Hover effect */
+.custom_button:hover {
+    background-color: rgb(88, 88, 88);
+}
+
+/* Active effect */
+.custom_button:active {
+    background-color: #a80000;
+}
+
+/* Disabled button */
+.custom_button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+.btn_best {
+    background-color: rgb(19, 225, 74);
+}
+
+.btn_average {
+    background-color: rgb(18, 123, 222);
+}
+
+.btn_worse {
+    background-color: rgb(227, 21, 21);
+}
+
+.chbx {
+    display: flex;
+}
+
+.chbx label {
+    font-size: medium;
+}
