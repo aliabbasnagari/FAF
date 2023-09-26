@@ -78,3 +78,6 @@ Nothing required except for a Chrome browser on your PC. (Work in progress for F
 
 
 ## open to contributions and feedback
+
+Copyright © 2023 Ali Abbas
+This project is licensed under the [MIT License](https://github.com/aliabbasnagari/FAF/LICENSE).
