@@ -38,10 +38,10 @@ Nothing required except for a Chrome browser on your PC. (Work in progress for F
     a. Click the "Code" button and select "Download ZIP" to download the extension's source code to your computer.
 
     b. ```bash
-        # Example installation steps (git required)
-        git clone https://github.com/aliabbasnagari/FAF.git
-        cd FAF
-        # Follow installation instructions from step 3 onwards.
+# Example installation steps (git required)
+git clone https://github.com/aliabbasnagari/FAF.git
+cd FAF
+# Follow installation instructions from step 3 onwards.
     ```
 
 2. Extract the ZIP File:
