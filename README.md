@@ -39,10 +39,9 @@ Nothing required except for a Chrome browser on your PC. (Work in progress for F
 
     b. Clone the repository using the following commands (requires Git):
     ```bash
-    # Clone the repository
     git clone https://github.com/aliabbasnagari/FAF.git
-    # Skip Step 2
     ```
+    - Skip Step 2
 
 2. Extract the ZIP File:
 
@@ -52,7 +51,12 @@ Nothing required except for a Chrome browser on your PC. (Work in progress for F
 
     Open Google Chrome on your computer.
     Click on the three vertical dots in the upper-right corner to open the Chrome menu.
-    From the menu, hover over "More Tools" and select "Extensions." Alternatively, you can type chrome://extensions/ in the address bar and press Enter.
+    From the menu, hover over "More Tools" and select "Extensions.".
+    Alternatively, you can type 
+    ```bash
+    chrome://extensions/ 
+    ```
+    in the address bar and press Enter.
 
 4. Enable Developer Mode:
 
