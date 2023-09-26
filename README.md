@@ -69,3 +69,7 @@ Nothing required except for a Chrome browser on your PC. (Work in progress for F
 # Example installation steps
 git clone https://github.com/aliabbasnagari/FAF.git
 cd FAF
+```
+Follow instructions from step 3 onward (#installation).
+
+## open to contributions and feedback
