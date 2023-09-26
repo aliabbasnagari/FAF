@@ -35,7 +35,14 @@ Nothing required except for a Chrome browser on your PC. (Work in progress for F
 ### Installation
 1. Download the Extension Files:
 
-    Click the "Code" button and select "Download ZIP" to download the extension's source code to your computer.
+    a. Click the "Code" button and select "Download ZIP" to download the extension's source code to your computer.
+
+    b. ```bash
+        # Example installation steps (git required)
+        git clone https://github.com/aliabbasnagari/FAF.git
+        cd FAF
+        # Follow installation instructions from step 3 onwards.
+    ```
 
 2. Extract the ZIP File:
 
@@ -65,12 +72,5 @@ Nothing required except for a Chrome browser on your PC. (Work in progress for F
     Depending on the extension, you may need to configure its settings. Click the extension's icon in the Chrome toolbar to access its options.
     Follow any on-screen instructions or documentation provided by the extension's developer to start using it.
 
-```bash
-# Example installation steps (git required)
-git clone https://github.com/aliabbasnagari/FAF.git
-cd FAF
-# Follow installation instructions from step 3 onwards.
-```
-[Installation](#installation).
 
-# open to contributions and feedback
+## open to contributions and feedback
