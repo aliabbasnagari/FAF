@@ -38,10 +38,11 @@ Nothing required except for a Chrome browser on your PC. (Work in progress for F
     a. Click the "Code" button and select "Download ZIP" to download the extension's source code to your computer.
 
     b. Clone the repository using the following commands (requires Git):
-```bash
-# Clone the repository
-git clone https://github.com/aliabbasnagari/FAF.git
-```
+    ```bash
+    # Clone the repository
+    git clone https://github.com/aliabbasnagari/FAF.git
+    ```
+    Skip step 2.
 
 2. Extract the ZIP File:
 
