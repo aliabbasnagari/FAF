@@ -70,6 +70,6 @@ Nothing required except for a Chrome browser on your PC. (Work in progress for F
 git clone https://github.com/aliabbasnagari/FAF.git
 cd FAF
 ```
-Follow instructions from step 3 onward (#installation).
+Follow instructions from step 3 onward [Installation](#installation).
 
 ## open to contributions and feedback
