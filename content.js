@@ -70,7 +70,6 @@ function BestFeedback() {
         textareas[i].value = "Excellent!";
     }
     if (autoSubmit.checked) document.getElementById('submit').click();
-    console.log(asubmit)
 }
 
 function WorstFeedback() {
@@ -109,7 +108,6 @@ setTimeout(addBtn, 2000);
 
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     if (message.action === "reloadContentScript") {
-        console.log("WOPS");
         addBtn();
     }
 });
