@@ -61,24 +61,35 @@ Nothing required except for a Chrome browser on your PC. (Work in progress for F
     chrome://extensions/ 
     ```
     in the address bar and press Enter.
+   
+   ![Extension Page](https://raw.githubusercontent.com/aliabbasnagari/FAF/master/instructions/1.webp)
 
-5. Enable Developer Mode:
+6. Enable Developer Mode:
 
     In the "Extensions" page, you'll see a toggle switch at the top-right corner labeled "Developer mode." Turn it on by clicking the switch.
 
-6. Load the Extension:
+   ![Developer Mode](https://raw.githubusercontent.com/aliabbasnagari/FAF/master/instructions/2.webp)
+
+8. Load the Extension:
 
     Click the "Load unpacked" button that appears after enabling Developer mode.
     A file dialog will open. Navigate to the folder where you extracted the extension's ZIP file or cloned the repository, select the folder, and click "Select Folder" (or equivalent, depending on your operating system).
 
-7. Confirm Installation:
+   ![Developer Mode](https://raw.githubusercontent.com/aliabbasnagari/FAF/master/instructions/3.webp)
+   ![Developer Mode](https://raw.githubusercontent.com/aliabbasnagari/FAF/master/instructions/4.webp)
+
+10. Confirm Installation:
 
     The Chrome extension should now appear in the list of installed extensions. You should see the extension's icon added to the Chrome toolbar.
 
-8. Use the Extension:
+    ![Developer Mode](https://raw.githubusercontent.com/aliabbasnagari/FAF/master/instructions/5.webp)
+
+12. Use the Extension:
 
    Goto to the feedback page in flex and you will see different options for auto filling the feedback form.
    The feedback will be auto filled according to your preferences.
+
+   ![Developer Mode](https://raw.githubusercontent.com/aliabbasnagari/FAF/master/instructions/demo.webp)
 
 
 ## open to contributions and feedback
