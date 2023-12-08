@@ -71,10 +71,10 @@ Nothing required except for a Chrome browser on your PC. (Work in progress for F
 
     The Chrome extension should now appear in the list of installed extensions. You should see the extension's icon added to the Chrome toolbar.
 
-7. Configure and Use the Extension:
+7. Use the Extension:
 
-    Depending on the extension, you may need to configure its settings. Click the extension's icon in the Chrome toolbar to access its options.
-    Follow any on-screen instructions or documentation provided by the extension's developer to start using it.
+   Goto to the feedback page in flex and you will see different options for auto filling the feedback form.
+   The feedback will be auto filled according to your preferences.
 
 
 ## open to contributions and feedback
