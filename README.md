@@ -69,7 +69,7 @@ Nothing required except for a Chrome browser on your PC. (Work in progress for F
 6. Load the Extension:
 
     Click the "Load unpacked" button that appears after enabling Developer mode.
-    A file dialog will open. Navigate to the folder where you extracted the extension's ZIP file, select the folder, and click "Select Folder" (or equivalent, depending on your operating system).
+    A file dialog will open. Navigate to the folder where you extracted the extension's ZIP file or cloned the repository, select the folder, and click "Select Folder" (or equivalent, depending on your operating system).
 
 7. Confirm Installation:
 
