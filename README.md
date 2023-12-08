@@ -2,6 +2,8 @@
 # FAF (Flex Auto Feedback)
 FAF (Flex Auto Feedback) a tool that Auto submits Course feedbacks based on single preference choice. 😜
 
+Download Link: https://github.com/aliabbasnagari/FAF/releases/download/v0.0.1/FAF_v0.0.1.zip
+
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -35,19 +37,19 @@ Nothing required except for a Chrome browser on your PC. (Work in progress for F
 ### Installation
 1. Download the Extension Files:
 
-    a. Click the "Code" button and select "Download ZIP" to download the extension's source code to your computer.
+    a. (method 1) Click the "Code" button and select "Download ZIP" to download the extension's source code to your computer.
 
-    b. Clone the repository using the following commands (requires Git):
+    b. (method 2) Clone the repository using the following commands (requires Git):
     ```bash
     git clone https://github.com/aliabbasnagari/FAF.git
     ```
     - Skip Step 2
 
-2. Extract the ZIP File:
+3. Extract the ZIP File:
 
     Locate the downloaded ZIP file (usually in your computer's "Downloads" folder) and extract its contents to a folder of your choice using your preferred ZIP extraction tool.
 
-3. Open Chrome Extensions Page:
+4. Open Chrome Extensions Page:
 
     Open Google Chrome on your computer.
     Click on the three vertical dots in the upper-right corner to open the Chrome menu.
@@ -58,20 +60,20 @@ Nothing required except for a Chrome browser on your PC. (Work in progress for F
     ```
     in the address bar and press Enter.
 
-4. Enable Developer Mode:
+5. Enable Developer Mode:
 
     In the "Extensions" page, you'll see a toggle switch at the top-right corner labeled "Developer mode." Turn it on by clicking the switch.
 
-5. Load the Extension:
+6. Load the Extension:
 
     Click the "Load unpacked" button that appears after enabling Developer mode.
     A file dialog will open. Navigate to the folder where you extracted the extension's ZIP file, select the folder, and click "Select Folder" (or equivalent, depending on your operating system).
 
-6. Confirm Installation:
+7. Confirm Installation:
 
     The Chrome extension should now appear in the list of installed extensions. You should see the extension's icon added to the Chrome toolbar.
 
-7. Use the Extension:
+8. Use the Extension:
 
    Goto to the feedback page in flex and you will see different options for auto filling the feedback form.
    The feedback will be auto filled according to your preferences.
