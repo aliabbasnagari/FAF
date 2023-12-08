@@ -33,7 +33,7 @@ function addBtn() {
         afbutton.classList.add('btn');
         afbutton.classList.add('btn-info');
         afbutton.classList.add('m-2');
-        bfbutton.addEventListener("click", () => AutoFeedback(1));
+        afbutton.addEventListener("click", () => AutoFeedback(1));
 
         var wfbutton = document.createElement('button');
         wfbutton.type = 'button';
@@ -41,7 +41,7 @@ function addBtn() {
         wfbutton.classList.add('btn');
         wfbutton.classList.add('btn-danger');
         wfbutton.classList.add('m-2');
-        bfbutton.addEventListener("click", () => AutoFeedback(0));
+        wfbutton.addEventListener("click", () => AutoFeedback(0));
 
         divs[0].appendChild(bfbutton);
         divs[0].appendChild(afbutton);
@@ -55,6 +55,7 @@ function addBtn() {
 
 
 function AutoFeedback(level) {
+    console.log("LEVEL: " + level);
     var autoSubmit = document.getElementById('autoSubmit');
     var radioButtons = document.querySelectorAll('.rdo');
     var textareas = document.querySelectorAll('textarea');
@@ -62,6 +63,7 @@ function AutoFeedback(level) {
     var offset = (level == 0) ? 4 : 0;
     for (var i = 0; i < radioButtons.length; i += 5) {
         if (level == 1) offset = Math.floor(Math.random() * 3);
+        console.log(offset);
         radioButtons[i + offset].checked = true;
     }
 
