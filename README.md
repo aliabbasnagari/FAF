@@ -35,11 +35,11 @@ It's easy just follow along the instructions
 Nothing required except for a Chrome browser on your PC. (Work in progress for Firefox as well)
 
 ### Installation
-1. Download the Extension Files:
+1. Download the Extension Files (if not download already):
+    a. (method 1) Click on the download link: https://github.com/aliabbasnagari/FAF/releases/download/v0.0.1/FAF_v0.0.1.zip
+    b. (method 2) Click the "Code" button and select "Download ZIP" to download the extension's source code to your computer.
 
-    a. (method 1) Click the "Code" button and select "Download ZIP" to download the extension's source code to your computer.
-
-    b. (method 2) Clone the repository using the following commands (requires Git):
+    c. (method 3) Clone the repository using the following commands (requires Git):
     ```bash
     git clone https://github.com/aliabbasnagari/FAF.git
     ```
