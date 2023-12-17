@@ -55,7 +55,7 @@ Nothing required except for a Chrome browser on your PC. (Work in progress for F
 
     Open Google Chrome on your computer.
     Click on the three vertical dots in the upper-right corner to open the Chrome menu.
-    From the menu, hover over "More Tools" and select "Extensions.".
+    From the menu, hover over "Extensions" and select "Manage Extensions".
     Alternatively, you can type 
     ```bash
     chrome://extensions/ 
